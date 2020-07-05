@@ -2,6 +2,14 @@
 
 Thème WordPress à développer en autonomie de A à Z dans le cadre du projet final de la formation WordPress pour l'association Descodeuses.
 
+Le projet est à rendre au plus tard **le dimanche 12 juillet 2020 à 23 h 59** dans une deux formes suivantes :
+- dépôt git public sur votre compte GitHub ou Gitlab (méthode recommandée pour faciliter la correction)
+- fichier zip à déposer dans Google Classroom à la section [Projet final](https://classroom.google.com/u/2/c/ODUyMzgxODEzMjBa/a/MTI4MDQwNDkxMTIz/details).
+
+Veuillez noter qu'**une attention particulière sera portée au respect des délais**.
+Si le projet est rendu sous forme de dépôt git, seul le plus ancien commit antérieur à 00 h 00 sera considéré.
+Si rendu sous forme d'archive, veuillez noter que le dépôt sur Classroom sera automatiquement fermé le lundi 13 juillet à 00 h 00.
+
 # A Faire /100 points
 
 ## Modèles de page dynamique /50 points
