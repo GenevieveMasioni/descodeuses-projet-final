@@ -10,7 +10,13 @@ Veuillez noter qu'**une attention particulière sera portée au respect des dél
 Si le projet est rendu sous forme de dépôt git, seul le plus ancien commit antérieur à 00 h 00 sera considéré.
 Si rendu sous forme d'archive, veuillez noter que le dépôt sur Classroom sera automatiquement fermé le lundi 13 juillet à 00 h 00.
 
+**Pour faciliter la correction, merci de nommer votre thème de la même manière que vous-même (prénom).**
+
 # Travail à faire /100 points
+
+Barème du projet sur 100 points à faire obligatoirement selon vos capacités, en vous aidant de la documentation et en vous référant au code du thème "Descodeuses" écrit ensemble.
+
+50 points bonus potentiels pour aller plus loin (investissement personnel).
 
 ## Modèles de page dynamique /50 points
 
