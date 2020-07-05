@@ -1,4 +1,5 @@
 # descodeuses-projet-final
+![Logo de l'association Descodeuses](https://descodeuses.org/img/logo-descodeuses.701b1e3c.png)
 
 Thème WordPress à développer en autonomie de A à Z dans le cadre du projet final de la formation WordPress pour l'association Descodeuses.
 
@@ -19,7 +20,7 @@ Barème du projet sur 100 points à faire obligatoirement selon vos capacités, 
 
 50 points bonus potentiels pour aller plus loin (investissement personnel).
 
-## Modèles de page dynamique /50 points
+## Modèles de page /50 points
 
 - [ ] Modèle de page d’accueil statique : `front-page.php`
 - [ ] Modèle des articles : `index.php`
