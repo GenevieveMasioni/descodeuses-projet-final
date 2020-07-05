@@ -2,9 +2,9 @@
 
 Thème WordPress à développer en autonomie de A à Z dans le cadre du projet final de la formation WordPress pour l'association Descodeuses.
 
-# A Faire
+# A Faire /100 points
 
-### Modèles de page dynamique
+## Modèles de page dynamique /50 points
 - [ ] Modèle de page d’accueil statique : `front-page.php`
 - [ ] Modèle des articles : `index.php`
 - [ ] Modèle d’un article : `single.php`
@@ -14,26 +14,26 @@ Thème WordPress à développer en autonomie de A à Z dans le cadre du projet f
 - [ ] Partie de modèle de pied de page : `footer.php`
 - [ ] Partie de modèle de barre latérale : `sidebar.php`
 
-### Fichiers annexes :
-- [ ] `style.css` (informations du thème - [rappel des champs possibles](https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/))
+## Fichiers annexes /50 points
+- [ ] `style.css` (informations du thème - [rappel des champs possibles](https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/)) /8 points
+- [ ] `screenshot.png` (au bon format) /2 points
 - [ ] `functions.php`
 - [ ] `customizer.php`
-- [ ] `screenshot.png` (au bon format)
 
-### Options de personnalisation à développer (`customizer.php` et `functions.php`)
+### Options de personnalisation à développer (`customizer.php` et `functions.php`) /40 points
 
-#### En-tête
+#### En-tête /5 points
 
 1. Afficher un logo personnalisé ou titre du site si non défini
 2. Menu principal
 
-#### Pied de page
+#### Pied de page /10 points
 
 1. 4 zones de widgets
 2. Pouvoir changer le texte du copyright ("© 2020 Descodeuses. Tous droits réservés").
 3. Menu secondaire
 
-#### Page d'accueil (`front-page.php`)
+#### Page d'accueil (`front-page.php`) /20 points
 
 1. Pouvoir changer l'image de fond.
 2. Titre : pouvoir modifier texte et taille.
@@ -46,14 +46,14 @@ Thème WordPress à développer en autonomie de A à Z dans le cadre du projet f
 5. Zone de citation : pouvoir changer les textes et le style.
 Pour le style, utiliser un sélecteur pour le contrôle et les clés suivantes pour les choix : `custom-quote-style-1`, `custom-quote-style-2`, `custom-quote-style-3` (classes CSS).
 
-#### Page de blog
+#### Page de blog /5 points
 
 1. Zone de widgets latérale.
 2. Case à cocher pour afficher ou non la barre latérale (ajouter la classe `hidden` si cochée)
 
-# Pour aller plus loin (points bonus)
+# Pour aller plus loin - points bonus /50 points
 
-## D'autres modèles et fonctionnalités à développer :
+## D'autres modèles et fonctionnalités à développer /30 points
 - [ ] Modèle de page d'erreur : `404.php`
 - [ ] Formulaire de recherche en pop-up (voir clic sur icon loupe dans l'en-tête)
 - [ ] Prise en compte de WooCommerce :
@@ -65,7 +65,7 @@ Aide pour WooCommerce :
 - Voir [Documentation officielle de WooCommerce](https://docs.woocommerce.com/documentation/plugins/woocommerce/woocommerce-codex/theming/)
 - Liste des [fonctions officielles WooCommerce](https://docs.woocommerce.com/wc-apidocs/package-WooCommerce.Functions.html)
 
-## Rendre le thème "prêt à traduire"
+## Rendre le thème "prêt à traduire" /10 points
 Vous avez certainement vu les fonctions `__()` et `__e()` entourer du texte dans les extraits de code trouvés sur Internet... Ces fonctions servent à rendre un thème "prêt à traduire" par vous-même ou d'autres développeurs.
 
 Pour cela, nous créons un dossier `languages` qui contiendra les fichiers de traduction des chaînes de caractères de notre thème dans différentes langues.
@@ -80,16 +80,24 @@ Par exemple, dans `index.php` :
 Je vous invite à lire l'article suivant (en Anglais) pour en apprendre davantage sur la traduction de thème et comment l'implémenter :
 "[How to Localize a WordPress Theme and Make it Translation Ready](https://premium.wpmudev.org/blog/how-to-localize-a-wordpress-theme-and-make-it-translation-ready/)"
 
-## Respect des bonnes pratiques de développement
+## Respect des bonnes pratiques de développement /10 points
 
-### Eviter d'écrire du CSS dans du HTML
+### Eviter d'écrire du CSS dans du HTML /5 points
 
 En terme de qualité de code, on déconseille d'écrire du CSS dans du HTML.
 Nous l'avons pourtant fait plusieurs fois. Pourquoi ? Parce que cette solution est la plus rapide !
 
-Je vous encourage maintenant à trouver, en vous aidant d'Internet et des forums techniques tels que le [WordPress Forum](https://wordpress.org/support/forum/wp-advanced/) ou [StackOverflow](https://stackoverflow.com/), la **bonne manière** de faire des modifications de style (en lien avec les paramètres de notre Customizer) pour garder un code propre. :)
+Je vous encourage maintenant à trouver, en vous aidant d'Internet et des forums techniques tels que le [WordPress Forum](https://wordpress.org/support/forum/wp-advanced/) ou [StackOverflow](https://stackoverflow.com/), la **bonne manière** de faire des modifications de style (en lien avec les paramètres de notre Customizer) pour garder un code propre.
 
-### Inclure correctement les fichiers de style CSS dans notre thème
+Pour gagner du temps de développement, vous pouvez simplement **détailler votre réflexion** dans un fichier texte (pdf) en incluant des extraits de code commentés (pas de copier-coller d'Internet sans explications) et en soulignant les avantages et les inconvénients des solutions trouvées.
+
+Cette section du projet vise à tester :
+- votre esprit critique vis à vis de la qualité de votre code
+- votre capacité à lire, comprendre et analyser du code non-familier
+- votre capacité à présenter une solution technique en langage naturel
+- et votre débrouillardise. :-)
+
+### Inclure correctement les fichiers de style CSS dans notre thème /5 points
 
 Pour inclure notre fichier `style.css` nous avons ajouté une balise `<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">` dans `header.php` mais est-ce recommandé par WordPress ?
 
