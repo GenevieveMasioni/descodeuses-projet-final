@@ -20,7 +20,7 @@ Barème du projet sur 100 points à faire obligatoirement selon vos capacités, 
 
 50 points bonus potentiels pour aller plus loin (investissement personnel).
 
-## Modèles de page sur 50 points
+## Templates /50 points
 
 - [ ] Modèle de page d’accueil statique : `front-page.php`
 - [ ] Modèle des articles : `index.php`
