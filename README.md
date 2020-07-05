@@ -10,9 +10,10 @@ Veuillez noter qu'**une attention particulière sera portée au respect des dél
 Si le projet est rendu sous forme de dépôt git, seul le plus ancien commit antérieur à 00 h 00 sera considéré.
 Si rendu sous forme d'archive, veuillez noter que le dépôt sur Classroom sera automatiquement fermé le lundi 13 juillet à 00 h 00.
 
-# A Faire /100 points
+# Travail à faire /100 points
 
 ## Modèles de page dynamique /50 points
+
 - [ ] Modèle de page d’accueil statique : `front-page.php`
 - [ ] Modèle des articles : `index.php`
 - [ ] Modèle d’un article : `single.php`
@@ -23,6 +24,7 @@ Si rendu sous forme d'archive, veuillez noter que le dépôt sur Classroom sera 
 - [ ] Partie de modèle de barre latérale : `sidebar.php`
 
 ## Fichiers annexes /50 points
+
 - [ ] `style.css` (informations du thème - [rappel des champs possibles](https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/)) /8 points
 - [ ] `screenshot.png` (au bon format) /2 points
 - [ ] `functions.php`
