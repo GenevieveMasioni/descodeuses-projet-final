@@ -2,6 +2,7 @@
 
 Thème WordPress à développer en autonomie de A à Z dans le cadre du projet final de la formation WordPress pour l'association Descodeuses.
 
+Le début officiel du projet est le lundi 6 juillet 2020.
 Le projet est à rendre au plus tard **le dimanche 12 juillet 2020 à 23 h 59** dans une deux formes suivantes :
 - dépôt git public sur votre compte GitHub ou Gitlab (méthode recommandée pour faciliter la correction)
 - fichier zip à déposer dans Google Classroom à la section [Projet final](https://classroom.google.com/u/2/c/ODUyMzgxODEzMjBa/a/MTI4MDQwNDkxMTIz/details).
