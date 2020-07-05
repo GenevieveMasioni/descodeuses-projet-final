@@ -1,23 +1,11 @@
 /*
 
-Theme name: Descodeuses
-Author: Genevieve Masioni
-Author URI : http://genevievemasioni.com
-Description: Descodeuses gives a minimalistic and clean feeling to your website.
-Version: 1.0.0
-Requires at least: 4.7
+COMPLETER LES INFORMATIONS DU THEME
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: dynamic
-Tags: blog, front page, sidebar, menus, one-column, two-columns, footer-widgets,
-featured-images, theme-options, threaded-comments
 
 This theme is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
-*/
-
-/*
-Doc sur format des données ci-dessus : https://developer.wordpress.org/themes/basics/main-stylesheet-style-css/
 */
 
 /*-----------------------------------------------------------
@@ -970,6 +958,7 @@ body {
 .custom-blocks,
 .custom-presentation {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .custom-presentation-infos {
@@ -1045,14 +1034,14 @@ body {
 }
 
 .author-thumbnail {
-	flex: 1 1 30%;
+	flex: 1 1 25rem;
 	display: flex;
 	align-items: center;
 }
 
 .author-picture {
-	height: 100%;
-	width: auto;
+	height: auto;
+	width: 100%;
 	border-radius: 1rem;
 	background: var(--color-background);
 }
@@ -1443,12 +1432,10 @@ img {
 }
 
 @media (max-width:845px) {
-	.site-branding {
-		order: 2;
-	}
 
   .mobile-navigation {
     display: inline-block;
+		order: -1;
   }
 
   .desktop-navigation {
